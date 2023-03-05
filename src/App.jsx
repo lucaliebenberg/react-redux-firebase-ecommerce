@@ -1,10 +1,16 @@
 import reactLogo from "./assets/react.svg";
-// import "./index.css";
+import "./default.scss";
+
+import Header from "./components/Header";
+import Homepage from "./pages/Homepage";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hey</h1>
+      <Header />
+      <div className="main">
+        <Homepage />
+      </div>
     </div>
   );
 };
